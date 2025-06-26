@@ -1,4 +1,4 @@
-class CalculatorBasica extends HTMLElement {
+class Calculator extends HTMLElement {
     constructor() {
         super();
         
@@ -75,4 +75,4 @@ class CalculatorBasica extends HTMLElement {
     }
 }
 
-customElements.define('calculadora-basica', CalculatorBasica);
+customElements.define('calculadora-basica', Calculator);
